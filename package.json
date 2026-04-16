@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx tsx src/server.ts"
+    "dev": "npx tsx api/tickets.ts"
   },
   "keywords": [],
   "author": "",
@@ -13,7 +13,8 @@
   "type": "commonjs",
   "dependencies": {
     "@vercel/node": "^5.7.7",
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "serverless-http": "^4.0.0"
   },
   "devDependencies": {
     "@types/express": "^5.0.6",
